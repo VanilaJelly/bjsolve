@@ -41,8 +41,14 @@ def process(subj):
     if consumed > 1:
         print "**************************************"
 
-
+'''
 f=open("tc13294.txt", 'r')
 lines = f.readlines()
 for line in lines:
     process(int(line))
+'''
+
+inp = 0
+while inp >= 0:
+    inp = input()
+    process(inp)
